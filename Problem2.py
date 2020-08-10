@@ -13,6 +13,7 @@ def fib():
         yield a
         a, b = b, a + b
 
+
 fbSum = 0
 for fb in fib():
     if fb > 4000000: break

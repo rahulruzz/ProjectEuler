@@ -9,7 +9,7 @@ def isPrime(n):
     if n == 2:
         return True
 
-    if n % 2 == 0 and n > 2:
+    if n % 2 == 0:
         return False
 
     for i in range(3, math.floor((math.sqrt(n))) + 1, 2):
