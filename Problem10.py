@@ -24,4 +24,3 @@ for x in range(1, 2000001, 2):
         sum += x
 
 print(f"{sum}")
-# sum([x for x in range(1, 2000001) if isPrime(x)])
