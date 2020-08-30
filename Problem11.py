@@ -1,5 +1,5 @@
 def readMatrix():
-    with open('grid.txt') as file:
+    with open('Problem11Grid.txt.txt') as file:
         matrix = [[int(x) for x in line.split()] for line in file]
     return matrix
 
